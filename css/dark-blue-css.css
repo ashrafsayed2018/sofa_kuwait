@@ -1,0 +1,21 @@
+.main-header p.h1{
+    text-align: center;
+}
+#service .serv i , .Dgreen a{
+    background-color: #dcbb77;
+    
+}
+footer a:hover{
+    color: #dcbb77;
+}
+#header, #ask ,
+.cli-btn.color a , #about2 , footer , .navbar-default .navbar-toggle .icon-bar {
+    background-color: #2a3ab2;
+}
+#about1 .h2 , .cli-btn a, .navbar-default .navbar-nav>li>a:hover , .navbar-default .navbar-nav>li>a:focus
+, .turbo-nav div.turbo-next::after , .turbo-nav div.turbo-prev::after{
+    color: #2a3ab2;
+}
+ .Dgreen a ,  .navbar-default .navbar-brand {
+    color: #fff; 
+}
