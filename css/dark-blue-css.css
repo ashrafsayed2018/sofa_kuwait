@@ -19,3 +19,28 @@ footer a:hover{
  .Dgreen a ,  .navbar-default .navbar-brand {
     color: #fff; 
 }
+
+ul.fixedNav {
+    width: 100%;
+    background:rgb(0, 0, 255);
+    position: fixed;
+    bottom: -5px;
+    left: 0;
+    display: none ;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    z-index: 1000000000000;
+}
+ul.fixedNav li {
+    padding: 10px;
+}
+ul.fixedNav li a {
+    color:white !important;
+}
+@media (max-width: 768px) {
+    ul.fixedNav{
+        display: grid !important;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
